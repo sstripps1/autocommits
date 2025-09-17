@@ -39,7 +39,7 @@ app.layout = ddk.App(
             width=100,
         ),
         ddk.Card(
-            width=50,
+            width=60,
             children=ddk.Graph(
                 id="graph-2",
                 figure=px.line(
